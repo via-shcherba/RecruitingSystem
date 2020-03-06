@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/customDataTable": [
+                "customDataTable/customDataTable.js"
+            ],
+            "c/datatablePicklist": [
+                "datatablePicklist/datatablePicklist.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/hRConsole": [
+                "hRConsole/hRConsole.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/jobSeekerMainMenu": [
+                "jobSeekerMainMenu/jobSeekerMainMenu.js"
+            ],
+            "c/jobSeekerConsole": [
+                "jobSeekerConsole/jobSeekerConsole.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
