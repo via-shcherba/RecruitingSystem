@@ -1,9 +1,0 @@
-:host .greeting {
-    padding-right: 10px;
-    padding-bottom: 10px;
-    font-size: 17px;
-}
-
-:host .greeting span {
-    font-weight: bold;
-}

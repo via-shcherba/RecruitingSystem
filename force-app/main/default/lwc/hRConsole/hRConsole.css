@@ -1,7 +1,0 @@
-:host .table-wrapper {
-    height: 300px;
-}
-
-:host table {
-    color: red;
-}
