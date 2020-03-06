@@ -1,0 +1,11 @@
+# ignored files
+
+*.xml
+*.iml
+
+# ignored folders
+
+/.idea
+/IlluminatedCloud
+/*.vscode
+/*.sfdx
